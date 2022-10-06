@@ -1,0 +1,121 @@
+
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.indice
+{
+    font-size:  2rem ;
+    margin: 4rem 2rem 1rem;
+    
+}
+
+.links-indice a
+{
+    font-size: 16px;
+    margin: 0 3rem;
+    text-decoration: none;
+}
+
+li
+{
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.titles
+{
+    font-size: 2rem;
+    margin: 10rem 2rem 1rem;
+}
+
+.textos p
+{
+    font-size: 26px;
+    text-align: justify;
+    margin: 1rem 8rem 0 4rem;
+    
+
+}
+
+.title-links-referencias
+{
+    margin: 10rem 0 0.5rem 2rem ;
+    
+}
+
+
+
+.links-referencias a
+{
+    margin: 0.5rem 0 0 4rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.links-referencias a:hover
+{
+    background-color: rgb(90, 86, 86);
+    border-radius: 15px;
+    max-width: 6rem;
+    padding-left: 8px;
+    color: white;
+    transition: 0.5s;
+}
+
+footer
+{
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(129, 139, 136);
+    bottom: 0;
+    background-color: rgb(225, 240, 252);
+    border: solid 0.01px;
+
+}
+
+.voltar 
+{
+    padding: 0.3rem;
+    position: fixed ;
+    bottom: 2rem;
+    right: 1rem;
+    border: solid 1px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: red;
+   
+   
+}
+.hover:hover
+{
+    background-color: rgb(90, 86, 86);
+    border-radius: 15px;
+    padding: 3px;
+    color: white;
+    transition: 0.5s;
+}
+.hover{
+    text-decoration: none;
+}
+
